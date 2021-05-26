@@ -2,12 +2,19 @@ For your attention elementary python scripts
 -------
 are_texts_match
 
-Returns true if the two texts match 70 percent or more
+Returns true if the two texts match 70 percent or more.
 
 -------
 IPv4_validator
 
-Verifys the validity of IPv4 addresses
+Verifys the validity of IPv4 addresses.
+
+-------
+braces_status
+
+The function checks the braces status in a string, and return True if all braces are properly closed, or False otherwise. Available types of brackets: (), [], {}.
+
+Without using regex
 
 -------
 is_password_strong
