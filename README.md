@@ -6,8 +6,8 @@ Verifys the validity of IPv4 addresses
 
 3. is_password_strong
 The function checks if the password meets the requirements.
-  1) 8 to 20 characters
-  2) Contains only the following symbols (and at least one symbol from each category):
+  a. 8 to 20 characters
+  b. Contains only the following symbols (and at least one symbol from each category):
       - capital letters,
       - lower case,
       - numbers
