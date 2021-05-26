@@ -10,6 +10,18 @@ IPv4_validator
 Verifys the validity of IPv4 addresses.
 
 -------
+birding_codes
+
+In the world of birding there are four-letter codes for the common names of birds. These codes are created by some simple rules:
+
+    If the bird's name has only one word, the code takes the first four letters of that word.
+    If the name is made up of two words, the code takes the first two letters of each word.
+    If the name is made up of three words, the code is created by taking the first letter from the first two words and the first two letters from the third word.
+    If the name is four words long, the code uses the first letter from all the words.
+
+The function  takes an array of strings of common bird names from North America, and create the codes for those names.
+
+-------
 braces_status
 
 The function checks the braces status in a string, and return True if all braces are properly closed, or False otherwise. Available types of brackets: (), [], {}.
