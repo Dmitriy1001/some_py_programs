@@ -50,6 +50,22 @@ the first as "1(times number)1", the third is "2(times number)1" describing the 
 The function takes a starting string (not necessarily the classical "1") and return the nth element of the series.
 
 -------
+password_generator
+
+The password generator meets the following criteria:
+
+    6 - 20 characters long
+    contains at least one lowercase letter
+    contains at least one uppercase letter
+    contains at least one number
+    contains only alphanumeric characters (no special characters)
+
+Returns the random password as a string.
+
+Note: "randomness" is checked by counting the characters used in the generated passwords - all characters should have less than 50% occurance. 
+
+
+-------
 valid_number_british
 
 In the UK mobile numbers begin with '07' followed by 9 other digits, e.g. '07454876120'.
