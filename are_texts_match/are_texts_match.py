@@ -19,8 +19,8 @@ def main():
 	'Do you want to input strings or specify the path to text files? 1-input, 2-path: '
 	)
 	if input_or_path == '1':
-		text1 = input('Input text 1:')
-		text2 = input('Input text 2:')
+		text1 = input('Input string 1:')
+		text2 = input('Input string 2:')
 	else:
 		text1 = read_file(input('Path to file 1:')) 
 		text2 = read_file(input('Path to file 2:'))
