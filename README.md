@@ -1,3 +1,4 @@
+For your attention elementary python scripts
 -------
 are_texts_match
 
