@@ -39,6 +39,11 @@ The function checks the braces status in a string, and return True if all braces
 Without using regex
 
 -------
+converts_all_cases
+
+Changes current case to a given case.
+
+-------
 is_password_strong
 
 The function checks if the password meets the requirements.
@@ -58,6 +63,13 @@ Considering for example the classical version startin with "1": ["1", "11", "21,
 the first as "1(times number)1", the third is "2(times number)1" describing the second, the fourth is "1(times number)2(and)1(times number)1" and so on.
 
 The function takes a starting string (not necessarily the classical "1") and return the nth element of the series.
+
+-------
+string_incrementer
+
+If the string already ends with a number, the number be incremented by 1.
+If the string does not end with a number, the number 1  be appended to the new string.
+If the number has leading zeros the amount of digits  be considered.
 
 -------
 valid_number_british
