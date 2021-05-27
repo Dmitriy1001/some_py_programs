@@ -5,6 +5,16 @@ are_texts_match
 Returns true if the two texts match 70 percent or more.
 
 -------
+cryptography
+
+Simple popular ciphers
+
+-------
+passwords
+
+Contains password generators/validators
+
+-------
 IPv4_validator
 
 Verifys the validity of IPv4 addresses.
@@ -48,22 +58,6 @@ Considering for example the classical version startin with "1": ["1", "11", "21,
 the first as "1(times number)1", the third is "2(times number)1" describing the second, the fourth is "1(times number)2(and)1(times number)1" and so on.
 
 The function takes a starting string (not necessarily the classical "1") and return the nth element of the series.
-
--------
-password_generator
-
-The password generator meets the following criteria:
-
-    6 - 20 characters long
-    contains at least one lowercase letter
-    contains at least one uppercase letter
-    contains at least one number
-    contains only alphanumeric characters (no special characters)
-
-Returns the random password as a string.
-
-Note: "randomness" is checked by counting the characters used in the generated passwords - all characters should have less than 50% occurance. 
-
 
 -------
 valid_number_british
