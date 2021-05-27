@@ -76,3 +76,11 @@ As you can see, dashes may be consecutive.
 The function checks if the string is a valid UK mobile phone number or not
 
 -------
+vowel_shifting
+
+The function shifts the vowels by "n" positions to the right.
+(if n is negative - to the left)
+"Position" means the vowel's position if taken as one item in a list of all vowels within the string.
+A shift by 1 would mean, that every vowel shifts to the place of the next vowel.
+
+Shifting over the edges of the text should continue at the other edge.
