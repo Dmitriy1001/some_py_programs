@@ -2,6 +2,8 @@ import re
 
 
 def numeric_formatter(template, num='1234567890'):
+    '''Formats a number given a template; 
+    if the number is not present, uses the digits 1234567890 to fill in the spaces.'''
     formated_num = re.sub(r'[a-zA-Z]', '{}', template)
     len_template = len([i for i in template if i.isalpha()])
     while len(num) < len_template:
@@ -19,6 +21,6 @@ def numeric_formatter(template, num='1234567890'):
 template = input('input template: ')
 number = input('input number(press enter to leave the field empty): ')
 print(
-	numeric_formatter(template, number) if number else\
-	numeric_formatter(template)
+    numeric_formatter(template, number) if number else\
+    numeric_formatter(template),
 )    
