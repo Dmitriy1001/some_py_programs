@@ -24,6 +24,13 @@ def increment_string(s):
     else: return '1'   
 
 
+# Examples
+#foo -> foo1
+#foobar23 -> foobar24
+#foo0042 -> foo0043
+#foo9 -> foo10
+#foo099 -> foo100
+
 print(
    increment_string(input('enter string: ')) 
 )    
