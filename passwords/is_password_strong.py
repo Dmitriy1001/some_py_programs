@@ -2,7 +2,11 @@ from string import ascii_lowercase, ascii_uppercase, ascii_letters, digits
 
 
 def check_password(password):
-    '''checks if the password is strong'''
+    '''Strong password criteria. 8 to 20 characters, 
+    Contains only the following symbols 
+    (and at least one symbol from each category): 
+    capital letters, lower case, numbers special characters from! @ # $% ^ & *?
+    '''
     valid_char = ascii_letters + digits + '!@#$%^&*?'
     return any(i.islower() for i in password) and\
            any(i.isupper() for i in password) and\
