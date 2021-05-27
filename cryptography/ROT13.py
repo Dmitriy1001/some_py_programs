@@ -16,4 +16,4 @@ def rot13(s):
     return ''.join(res)
 
 
-print(rot13("This is my first ROT13 excercise!"))     
+print(rot13(input('input string: ')))     
