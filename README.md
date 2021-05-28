@@ -44,6 +44,14 @@ converts_all_cases
 Changes current case to a given case.
 
 -------
+
+coordinates_validator
+
+Latitude (which is first float) can be between 0 and 90, positive or negative. Longitude (which is second float) can be between 0 and 180, positive or negative. Coordinates can only contain digits, or one of the following symbols (including space after comma) __ -, . __
+
+There should be no space between the minus "-" sign and the digit after it.
+
+-------
 is_password_strong
 
 The function checks if the password meets the requirements.
@@ -56,6 +64,11 @@ The function checks if the password meets the requirements.
       - special characters from! @ # $% ^ & *?
 
 -------
+life_number
+
+Accepts a date of birth (as a string) in the following format: "yyyy-mm-dd". The function returns a one digit integer between 1 and 9 which represents the Life Path Number of the given date of birth.
+
+-------
 look_n_say
 
 The look and say sequence is a sequence in which each number is the result of a "look and say" operation on the previous element.
@@ -63,6 +76,12 @@ Considering for example the classical version startin with "1": ["1", "11", "21,
 the first as "1(times number)1", the third is "2(times number)1" describing the second, the fourth is "1(times number)2(and)1(times number)1" and so on.
 
 The function takes a starting string (not necessarily the classical "1") and return the nth element of the series.
+
+-------
+numeric_template_formatter
+
+The template might consist of other numbers, special characters or the like: replaces only alphabetical characters (both lower- and uppercase);
+if the given or default string representing the number is shorter than the template, just repeats it to fill all the spaces.
 
 -------
 string_incrementer
