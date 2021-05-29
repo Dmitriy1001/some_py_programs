@@ -1,5 +1,10 @@
 For your attention elementary python scripts
 -------
+OOP
+
+Code examples using OOP
+
+-------
 are_texts_match
 
 Returns true if the two texts match 70 percent or more.

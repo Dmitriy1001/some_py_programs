@@ -28,5 +28,3 @@ class CaesarCipher(object):
 #c = CaesarCipher(5)
 #c.encode('Codewars')  returns 'HTIJBFWX'
 #c.decode('BFKKQJX')   returns 'WAFFLES'
-
-print(CaesarCipher.__doc__)
